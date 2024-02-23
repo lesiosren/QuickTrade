@@ -6,14 +6,11 @@ Comandi necessari per far funzionare il sito:
 php artisan serve
 npm run dev
 php artisan queue:work (necessario per l'inizializzazione del Job per ridimensionare l'immagine)
+
 php artisan migrate:fresh (per refreshare il database)
-
-
-VERIFICARE SE E' POSSIBILE RADUNARE TUTTI GLI SNIPPET IN UN SINGOLO LAYOUT
 
 presto:makeUserRevisor = Rendi un utente revisore
 
-se modifichii il database fresha tutto
 
 per tntsearch, da sparare sul terminale
 php artisan scout:flush "App\Models\Announcement"
