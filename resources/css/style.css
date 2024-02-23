@@ -1,0 +1,247 @@
+* {
+    font-family: Poppins, sans-serif;
+    /* Sostituisci con il font desiderato */
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+
+    margin: 0;
+}
+
+.welcome-page {
+
+    background-color: #ffffff;
+}
+
+.welcome-page-elements {
+    color: #e9e9e9;
+    transition: 0.3s;
+}
+
+/* navbar  */
+
+.navbar {
+    background-color: #ed3232;
+}
+
+.logo_custom {
+    width: 15%;
+    height: auto;
+}
+
+/* @media screen and (min-width: 768px) {
+    .logo-mobile {
+        background-image: url(/img/QuickTradeLogo.png);
+        z-index: 1;
+    }
+  } */
+
+@media screen and (max-width: 767px) {
+    .elements-mobile {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+}
+
+/* bottoni navbar */
+
+.navbuttons {
+    text-decoration: none;
+    color: #e9e9e9;
+    border: #e9e9e9 solid 2px;
+    transition: 0.3s;
+}
+
+.navbuttons:hover {
+    color: black;
+    background-color: #e9e9e9;
+    border: #e9e9e9 solid 2px;
+}
+
+#links-navbar {
+    text-decoration: none;
+    color: #e9e9e9;
+    transition: 0.3s;
+}
+
+.navbuttons:hover #links-navbar {
+    color: black;
+}
+
+.dropdown-color {
+    background-color: #e9e9e9;
+}
+
+/* header provvisorio  */
+
+.header_home_custom {
+    height: 60vh;
+}
+
+.container_video {
+    overflow: hidden;
+    height: 60vh;
+    box-shadow: rgb(38, 57, 77) 0px 20px 20px -15px;
+    border-radius: 15px;
+}
+
+#header-video {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+/* card pagina principale  */
+
+
+.card-welcome {
+    background-color: #e8e8e8;
+    border-radius: 27px 27px 18px 18px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-radius 0.2s ease;
+}
+
+.card-welcome:hover {
+    transform: translateY(-5px) scale(1.02) rotate(-3deg);
+    border-radius: 27px 27px 18px 18px;
+}
+
+.img-container {
+    padding: 10px;
+}
+
+.card-img-welcome {
+    border-radius: 16px;
+}
+
+.publishedby-section-container {
+    position: relative;
+    height: 20vh;
+}
+
+.publishedby-section-cards {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#show-more-cards {
+    /* position: absolute; */
+    transform: translate(-5%);
+}
+
+/* caratteristiche per i vari link  */
+
+.links {
+    text-decoration: none;
+    color: #e9e9e9;
+}
+
+.links:hover {
+    color: black;
+}
+
+.footer {
+    background-color: #ed3232;
+    /* position: fixed; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    height: 19vh;
+
+}
+
+.mb-costum {
+    margin-bottom: 150px;
+}
+
+.mb-costum-login {
+    margin-bottom: 34.9vh;
+}
+
+.img-preview {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/** RESPONSIVE FOOTER */
+
+.img_footer {
+    background-image: url('https://picsum.photos/200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 760px) {
+
+    .img_footer_Vision {
+        background-image: url('https://picsum.photos/200');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .responsive_img_vision {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .responsive_img_mission {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .responsive_footer_2 {
+        display: none;
+    }
+
+    .responsive_title_p {
+        display: block;
+        margin: 0px;
+    }
+}
+
+
+/* ! CAROSELLO */
+.container_img_custom {
+    width: 550px;
+    height: 80vh;
+    /* border: solid #2a2a2a 3px; */
+    display: flex;
+    align-items: center;
+}
+
+.container_img_announcements {
+    width: 550px;
+    height: 50vh;
+    /* border: solid #2a2a2a 3px; */
+    display: flex;
+    align-items: center;
+}
+
+
+.img_custom {
+    width: 550px;
+    height: auto;
+}
+
+.custom-div {
+    height: 52vh;
+}
